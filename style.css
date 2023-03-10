@@ -1,0 +1,56 @@
+/*
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.intro {
+  margin: 0 50px;
+}
+*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+.speaker {
+  align-self: flex-end;
+}
+*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
